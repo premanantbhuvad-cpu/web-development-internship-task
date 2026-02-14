@@ -1,0 +1,57 @@
+﻿body {
+    font-family: Arial;
+    background: linear-gradient(120deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    padding: 5px;
+    flex: 1;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fc;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}

@@ -1,0 +1,81 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF6E5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #1A1A1A;
+    border-bottom: 5px solid #FF8C00;
+    color:white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.years {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFF;
+    border-left: 6px solid #FF8C00;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero img {
+    width: 186px;
+    height:271px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    color:#1A1A1A;
+}
+
+/* Biography */
+.biography {
+    padding: 40px 60px;
+    background-color: #FDEBD0;
+}
+
+.biography h2 {
+    text-align: center;
+}
+
+/* Achievements */
+.achievements {
+    padding: 40px 60px;
+    background-color: #fff;
+}
+
+.achievements h2{
+    text-align:center;
+}
+
+.achievements ul {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #1A1A1A;
+    border-top: 4px solid #FF8C00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
